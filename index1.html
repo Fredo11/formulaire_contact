@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+
+  <body>
+        
+        <div class="container">
+            
+              <aside class="aside">
+               
+                  <div class="photo">
+                     <!--<i class="fas fa-users"></i> -->
+                     <img src="http://controverses.mines-paristech.fr/public/promo12/promo12_G21/www.controverses-minesparistech-10.fr/wp-content/uploads/2013/03/logo-utilisateur.jpg";
+                  </div>
+
+                   <div class="titre">
+                   <h1>GESTIONNAIRE<br> DE <br>CONTACTS</h1>
+                   </div>
+
+              
+                  <div class="selecteur">
+                    <select class="" id="monselect">
+                      <option value="liste" id="liste">Liste de mes contacts</option>
+                      <option value="ajouter" id="ajouter">Ajouter votre contact</option>
+                      <option value="nombre" id="nombre">Combien de contacts avez vous?</option>
+                    </select>
+                  </div>
+                  
+                  <div id="formulaire">
+                    
+
+                  </div>
+
+                  <div id="liste">
+                    
+
+                  </div>
+                  
+                  <div id="nombre">
+                    
+
+                  </div>
+             </aside>
+
+        </div>
+  
+
+
+
+                  <section id="liste"> liste de contact        
+                    <div id="box"></div>    
+                  </section>    
+
+                  <section id="ajout">        
+                    <form>
+                             <input id="input1" type=text>
+                             <input id="input2" type=text>
+                             <input id="input3" type=text>
+                             <input type=button onclick="myFunction()" value="Add Number"/>
+                    </form>    
+
+                  </section>    
+
+                  <section id="total">Nombre de contact XXX </section>
+
+<script>
+
+                  var number = [];    function myFunction()
+                  {        var x = document.getElementById("box");
+                         number.push(document.getElementById("input1").value);
+                         number.push(document.getElementById("input2").value);
+                         number.push(document.getElementById("input3").value);
+                        x.innerHTML = number.join('<br/>');        
+                 
+                         input1.value = "";
+                         input2.value = "";
+                         input3.value = "";    }
+
+</script>
+          
+
+</body>
+</html>

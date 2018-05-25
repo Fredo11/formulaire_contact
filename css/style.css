@@ -1,0 +1,65 @@
+body {
+  		display: flex;
+  		justify-content: center;
+		background-color: #F3F3F3;
+		width: 100%;
+		margin-top: 40px;
+}
+.container{
+		width: 400px;
+		height: 650px;
+		background-color: #000000;
+		border-radius: 10px;
+		display: flex;
+}
+
+/* Aside css */
+
+.aside{
+		margin: 5px;
+		width: 400px;
+		height: 640px; 
+		box-shadow: 1px 1px 8px 1px #999;
+		background-image:url(../images/fondn2.jpg);		
+		color: #ffffff; 
+		border-radius: 10px;    
+}		
+.photo img{		
+		margin: 20px 140px;			
+		height: 100px;
+		width: 100px;
+		border-radius: 50px;
+}
+.titre{		
+		color:#aed6f1 ;
+		text-align: center;
+		color: #D0D2EA;
+        font-style: oblique;
+        font-weight: bolder;
+        text-shadow: 5px 2px 4px grey;
+}
+.selecteur{
+		margin: auto;
+		text-align: center;		
+}
+#lol{	
+		height: 200px;
+		overflow: scroll;
+		border-radius: 10px;
+		background: #f7f7f7;
+		background: -moz-linear-gradient(90deg, #ccc, #fff);
+		background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ccc));
+		border: 1px solid #aaa;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		-moz-box-shadow: 0 0 15px #aaa;
+		-webkit-box-shadow: 0 0 15px #aaa;
+		margin: 50px auto 0;
+		padding: 20px;
+		width: 250px;height: 200px;
+		color:#000000;
+}
+#form2{
+		line-height: 50px;
+
+}
